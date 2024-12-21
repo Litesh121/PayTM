@@ -1,0 +1,62 @@
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.navigation-dropdown {
+    margin: 20px 0;
+}
+
+.navigation-dropdown select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.transaction-form {
+    margin: 20px 0;
+}
+
+.transaction-form input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.transaction-form .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-form .button:hover {
+    background-color: #2980b9;
+}
+
+.message {
+    font-size: 18px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
